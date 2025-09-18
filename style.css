@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+:root {
+  --Primary-color: hsl(171, 66%, 44%);
+  --second-color: hsl(233, 100%, 69%);
+  --text-color: hsl(210, 10%, 33%);
+  --second-text-color: hsl(201, 11%, 66%);
+  --main-font: "Bai Jamjuree", sans-serif;
+}
+
+@import url("https://fonts.google.com/specimen/Bai+Jamjuree1");
+.content {
+  background-image: url(./assets/images/bg-header-desktop.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80px;
+}
+.text h1,
+.about h1,
+.card h1,
+.description h1 {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 600;
+}
+.text p,
+.about p,
+.card p,
+.description p {
+  color: var(--second-text-color);
+  padding-top: 20px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 24px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+.btn1 {
+  background-color: var(--Primary-color);
+  border-radius: 20px;
+  border: 1px solid var(--Primary-color);
+  padding: 10px 20px;
+  color: #fff;
+}
+.btn2 {
+  background-color: var(--second-color);
+  border-radius: 20px;
+  border: 1px solid var(--Primary-color);
+  padding: 10px 20px;
+  color: #fff;
+}
+.about {
+  padding-top: 90px;
+  text-align: center;
+}
+.section img {
+  width: 600px;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  padding: 20px;
+}
+.card h1,
+.card p {
+  text-align: start;
+  font-size: 18px;
+}
+.more {
+  padding-top: 40px;
+}
+.images img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+  padding-top: 80px;
+}
+.app,.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-top: 60px;
+  align-items:baseline;
+  flex-wrap: wrap;
+}
+.chlid img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.gallery {
+  padding-top: 120px;
+}
+.contact{
+  padding-top:170px;
+}
+.footer{
+  background-color:hwb(0 93% 8%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.img img{
+  width: 70px;
+}
+.section-footer{
+  padding-top: 120px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.links a, div a{
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+}
+.links div {
+  display: flex;
+  gap: 90px;
+  padding-top: 30px;
+}
